@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+:root{
+    --titlecolor:#47559A;
+    --bordercolor:#6F729A;
+
+
+}
+
+.main-container{
+    font-family: merriweather, sans-serif ;
+    height: 80%;
+    margin: 50px;
+}
+
+#main-title{
+    align-items: center;
+    color: var(--titlecolor);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 50px;
+    font-weight: bold;
+    height: 80%;
+    justify-content: center;
+    
+    margin: 20px;
+    text-align: center;
+    
+}
+
+.second-container{
+    margin: 30px;
+    height: 50%;
+}
+.first-p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px;
+}
+.second-p{
+    margin: 20px;
+}
+.third-p{
+    margin: 20px;
+}
+.fourth-p{
+    margin: 20px;
+}
+.fifth-p{
+    margin: 20px;
+}
+.underline{
+    border-bottom: var(--bordercolor);
+}
+.sixth-p{
+    margin: 20px;
+}
+#third-container{
+    align-items: center;
+    border-color: var(--titlecolor);
+    height: 80%;
+    justify-content: center;
+    
+}
+#formdni{
+    align-items: center;
+    border-color: var(--titlecolor);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+
+}
+#title-DNI{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    justify-content: center;
+    margin: 30px;
+    height: 80%;
+}
+
+#dni-name{
+    font-size: 25px ;
+    color:grey;
+}
+
+#dni{
+    border-width: 5px;
+    border-color: var(--bordercolor);
+    border-style: solid;
+    font-size: 30px;
+    height: 50px;
+    
+}
+
+#buttonletter{
+    background-color: var(--bordercolor);
+    border-width: 0px;
+    border-color: var(--bordercolor);
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    margin: 20px 50px;
+}
+#delete{
+    background-color: grey;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+}
+
+#checkverde{
+    float: right;
+    margin: -20px 20px;
+    top: 1;
+    position: relative;
+    
+}

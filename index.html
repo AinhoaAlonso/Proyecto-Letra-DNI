@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ainhoa Alonso"><meta name="description" content="Calculadora del DNI">
+    <title>Calculadora del DNI</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="js/dni.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="first-container" id="first-container">
+            <div class="main-title" id="main-title">
+                <img src="images/dibujoDNI.jpg" alt="dibujoDNI" id="dnipicture">
+                <h1>CALCULAR LA LETRA DEL DNI</h1>
+            </div>
+        </div>
+        <div class="second-container" id="second-container">
+            <p class="first-p">¡Bienvenido a esta página web de cálculo del DNI!</p>
+            <p class="second-p">Aquí encontrarás una herramienta fácil de usar que te permitirá obtener la letra correspondiente a cualquier número de DNI. El cálculo del DNI es un proceso importante para verificar la autenticidad de los números de identificación y evitar errores en la identificación de las personas.</p>
+            <p class="third-p">En nuestra página, simplemente ingresa el número de DNI en el campo designado y haz clic en el botón. Nuestro objetivo es proporcionarte una manera rápida y confiable de calcular la letra del DNI, brindándote una herramienta útil y accesible.</p>
+            <p class="fourth-p">Recuerda que este cálculo se basa en las reglas y algoritmos establecidos por la autoridad competente en España. Siempre es importante seguir las regulaciones oficiales para garantizar la validez y exactitud de los números de identificación.</p>
+            <p class="fifth-p">Si quieres saber como se realiza este cálculo puedes pinchar <a href="https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/dni/calculo-del-digito-de-control-del-nif-nie/" target="_blank"> aquí.</a></p>
+            <p class="sixth-p">¡Esperamos que encuentres nuestra página web útil y que el cálculo del DNI sea una tarea sencilla con nuestra ayuda!</p>
+        </div>
+        <div class="third-container" id="third-container">
+            <div class="title-DNI" id="title-DNI">Teclea los números del DNI y pulsa < enter > o el botón...</div>
+            <div class="formdni" id="formdni">
+                <form action="" method="post">
+                    <fieldset>
+                        <label for="dni" id="dni-name">NIF:</label>
+                        <input type="text" name="dni" id="dni" maxlength="12"> 
+                        <img src="images/checkverde.jpg" alt="Imagen check verde" id="checkverde" style="display: none;">
+                        <br><button type="submit" id="buttonletter">CALCULAR LETRA DEL DNI</button>
+                        <button type="reset" id="delete">BORRAR</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
